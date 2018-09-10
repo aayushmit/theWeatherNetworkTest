@@ -20,7 +20,7 @@ public class TheWeatherNetworkTest extends Utility
 	
 	public void checktemp() throws InterruptedException, IOException {
 		System.out.println("Checking Current Temprature");
-		if(tmp >= 15) {
+		if(tmp <= 15) {
 			System.out.println("Test Failed. The temperature is less than 15 degrees Celcius");
 		}
 		else
